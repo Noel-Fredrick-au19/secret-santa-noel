@@ -167,11 +167,6 @@ npm run dev
 
 ---
 
-# 📜 **License**
-This project is licensed under the MIT License.
-
----
-
 # 🙋 **Support**
 For issues, create a GitHub issue or reach out to **noel.frd123@gmail.com** ✉️.
 
@@ -194,11 +189,6 @@ For issues, create a GitHub issue or reach out to **noel.frd123@gmail.com** ✉�
 ✅ **License & Support Info**  
 
 ---
-
-### **📌 Next Steps**
-1. **Copy the README into `README.md`** in your GitHub repo.
-2. **Commit and push it**:
-   ```sh
    git add README.md
    git commit -m "Added project documentation"
    git push origin main

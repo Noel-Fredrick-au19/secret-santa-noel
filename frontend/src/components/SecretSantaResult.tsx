@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 
 interface SecretSantaResultProps {
   results: {
@@ -15,7 +15,7 @@ const SecretSantaResult: React.FC<SecretSantaResultProps> = ({ results }) => {
       {results.length > 0 && (
         <div>
           <h2>Secret Santa Assignments</h2>
-          <table border="1">
+          <table border={1}>
             <thead>
               <tr>
                 <th>Employee Name</th>

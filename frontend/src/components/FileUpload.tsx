@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { useState } from "react";
 import { uploadCSV } from "../api/secretSantaApi";
 import { toast } from "react-toastify";
 
 interface FileUploadProps {
-  setResults: (data: unknown) => void;
+  setResults: (data: any) => void;
 }
 
 const FileUpload: React.FC<FileUploadProps> = ({ setResults }) => {
